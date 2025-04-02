@@ -19,7 +19,7 @@ namespace Kestrel
     {
         static void MemoryStress()
         {
-            for (int x = 0; x < 32; x++)
+            for (int x = 0; x < 100; x++)
             {
                 var lista = new List<byte[]>();
                 for (int i = 0; i < 300; i++)
@@ -55,7 +55,7 @@ namespace Kestrel
 
             MemoryStress();
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

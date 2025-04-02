@@ -16,10 +16,13 @@ namespace Kestrel.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            var lista = new List<byte[]>();
-            for (int i = 0; i < 300; i++)
+            for (int x = 0; x < 100; x++)
             {
-                lista.Add(new byte[1024 * 1024 * 1024]); // Aloca 1MB
+                var lista = new List<byte[]>();
+                for (int i = 0; i < 300; i++)
+                {
+                    lista.Add(new byte[1024 * 1024 * 1024]); // Aloca 1MB
+                }
             }
             return "Memory Stress";
         }
