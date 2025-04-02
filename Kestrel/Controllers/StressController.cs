@@ -12,20 +12,15 @@ namespace Kestrel.Controllers
     [ApiController]
     public class StressController : ControllerBase
     {
-        static void MemoryStress()
+        // GET api/stress
+        [HttpGet]
+        public ActionResult<string> Get()
         {
             var lista = new List<byte[]>();
             for (int i = 0; i < 300; i++)
             {
                 lista.Add(new byte[1024 * 1024 * 1024]); // Aloca 1MB
             }
-        }
-
-        // GET api/stress
-        [HttpGet]
-        public ActionResult<string> Get()
-        {
-            MemoryStress();
             return "Memory Stress";
         }
 
