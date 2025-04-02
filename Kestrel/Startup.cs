@@ -19,10 +19,13 @@ namespace Kestrel
     {
         static void MemoryStress()
         {
-            var lista = new List<byte[]>();
-            for (int i = 0; i < 300; i++)
+            for (int x = 0; x < 10; x++)
             {
-                lista.Add(new byte[1024 * 1024 * 1024]); // Aloca 1MB
+                var lista = new List<byte[]>();
+                for (int i = 0; i < 300; i++)
+                {
+                    lista.Add(new byte[1024 * 1024 * 1024]); // Aloca 1MB
+                }
             }
         }
         public Startup(IConfiguration configuration)
