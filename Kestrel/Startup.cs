@@ -50,7 +50,7 @@ namespace Kestrel
                 app.UseHsts();
             }
 
-            // MemoryStress();
+            MemoryStress();
 
             app.UseHttpsRedirection();
             app.UseMvc();
