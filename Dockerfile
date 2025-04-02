@@ -9,7 +9,7 @@ RUN apk add nano tcpdump
 #         libc6-dev \
 #         libgdiplus \
 #         libx11-dev
-RUN apk add libc6-dev libx11-dev
+RUN apk add libc6-compat libx11-dev
 
 # FROM grupovoalle/erp-container-base:2.1.30 AS base
 WORKDIR /app
