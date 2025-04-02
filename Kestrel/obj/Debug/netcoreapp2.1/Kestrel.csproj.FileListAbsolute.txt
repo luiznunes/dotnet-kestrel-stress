@@ -1,0 +1,14 @@
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\bin\Debug\netcoreapp2.1\Kestrel.deps.json
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\bin\Debug\netcoreapp2.1\Kestrel.runtimeconfig.json
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\bin\Debug\netcoreapp2.1\Kestrel.runtimeconfig.dev.json
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\bin\Debug\netcoreapp2.1\Kestrel.dll
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\bin\Debug\netcoreapp2.1\Kestrel.pdb
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.csprojAssemblyReference.cache
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.RazorAssemblyInfo.cache
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.RazorAssemblyInfo.cs
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.AssemblyInfoInputs.cache
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.AssemblyInfo.cs
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.RazorTargetAssemblyInfo.cache
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.dll
+C:\Users\Luiz Gustavo Nunes\Documents\Scripts\dotnet-kestrel\Kestrel\obj\Debug\netcoreapp2.1\Kestrel.pdb
