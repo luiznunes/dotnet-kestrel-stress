@@ -16,7 +16,7 @@ namespace Kestrel.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            for (int x = 0; x < 100; x++)
+            for (int x = 0; x < 32; x++)
             {
                 var lista = new List<byte[]>();
                 for (int i = 0; i < 300; i++)
