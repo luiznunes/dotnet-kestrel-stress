@@ -1,4 +1,17 @@
-FROM grupovoalle/erp-container-base:2.1.30 AS base
+FROM mcr.microsoft.com/dotnet/runtime:2.1.30-alpine3.13 AS base
+
+# Ferramentas de monitoriamento
+# RUN apt-get update && apt-get install -y nano iputils-ping tcpdump traceroute telnet
+RUN apk add nano tcpdump
+
+# Ferramentas de imagem -- Install System.Drawing native dependencies
+# RUN apt-get install -y --allow-unauthenticated \
+#         libc6-dev \
+#         libgdiplus \
+#         libx11-dev
+RUN apk add libc6-dev libx11-dev
+
+# FROM grupovoalle/erp-container-base:2.1.30 AS base
 WORKDIR /app
 EXPOSE 45701/tcp
 
