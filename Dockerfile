@@ -3,6 +3,7 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.1.28-alpine3.12 AS base
 # Ferramentas de monitoriamento
 # RUN apt-get update && apt-get install -y nano iputils-ping tcpdump traceroute telnet
 RUN apk add nano tcpdump
+RUN apk add libgdiplus --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.16/community/ --allow-untrusted
 
 # Ferramentas de imagem -- Install System.Drawing native dependencies
 # RUN apt-get install -y --allow-unauthenticated \
