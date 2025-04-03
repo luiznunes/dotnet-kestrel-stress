@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/runtime:2.1.30-alpine3.13 AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1.28-alpine3.12 AS base
 
 # Ferramentas de monitoriamento
 # RUN apt-get update && apt-get install -y nano iputils-ping tcpdump traceroute telnet
